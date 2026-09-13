@@ -1,0 +1,6 @@
+{
+  "name": "Algoryx Control Center",
+  "description": "High-performance SaaS technology operations dashboard and developer console for Algoryx Technologies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

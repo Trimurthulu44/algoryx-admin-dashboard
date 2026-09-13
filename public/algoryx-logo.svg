@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="100%" height="100%">
+  <defs>
+    <!-- Metallic Specular and Shading Gradients for Facets -->
+    <linearGradient id="facetHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#F1F5F9" />
+      <stop offset="70%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+
+    <linearGradient id="facetMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="50%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+
+    <linearGradient id="facetDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="50%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+
+    <linearGradient id="facetDeep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+
+  <g id="algoryx-emblem" transform="translate(200, 130)">
+    <!-- Outer Charcoal Hexagonal Frame -->
+    <!-- Lower V & Vertical Walls -->
+    <path
+      d="M -72,-20 L -72,32 L 0,78 L 72,32 L 72,-20"
+      fill="none"
+      stroke="#2D323A"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- Upper Notched Roof Lines -->
+    <path
+      d="M -72,-36 L -66,-66 L 0,-102 L 66,-66 L 72,-36"
+      fill="none"
+      stroke="#2D323A"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Interior Lower Chevron Accent -->
+    <path
+      d="M -24,36 L 0,52 L 24,36"
+      fill="none"
+      stroke="#363D47"
+      stroke-width="4.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Interior Upper Corner Accent Brackets -->
+    <path
+      d="M -60,-52 L -34,-34"
+      fill="none"
+      stroke="#5A6472"
+      stroke-width="3.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 60,-52 L 34,-34"
+      fill="none"
+      stroke="#5A6472"
+      stroke-width="3.5"
+      stroke-linecap="round"
+    />
+
+    <!-- 3D Faceted A / Star Monogram -->
+    <!-- 1. Top Vertical Apex -->
+    <!-- Left Facet (Bright Specular Reflection) -->
+    <polygon
+      points="0,-102 -22,-10 0,-22"
+      fill="url(#facetHighlight)"
+    />
+    <!-- Right Facet (Steel Shadow) -->
+    <polygon
+      points="0,-102 0,-22 22,-10"
+      fill="url(#facetDark)"
+    />
+
+    <!-- 2. Crossing Wing Blades -->
+    <!-- Upper Left Wing (Angled down towards center) -->
+    <polygon
+      points="-66,-34 0,-22 -32,6"
+      fill="url(#facetHighlight)"
+    />
+    <!-- Upper Right Wing (Angled down towards center) -->
+    <polygon
+      points="66,-34 32,6 0,-22"
+      fill="url(#facetMid)"
+    />
+
+    <!-- 3. Lower Left Outward Leg -->
+    <polygon
+      points="-64,60 -20,20 -35,-6"
+      fill="url(#facetDark)"
+    />
+    <polygon
+      points="-64,60 -42,10 -35,-6"
+      fill="url(#facetHighlight)"
+    />
+
+    <!-- 4. Lower Right Outward Leg -->
+    <polygon
+      points="64,60 35,-6 20,20"
+      fill="url(#facetMid)"
+    />
+    <polygon
+      points="64,60 35,-6 42,10"
+      fill="url(#facetDeep)"
+    />
+
+    <!-- 5. Central Star Intersection & Specular Facets -->
+    <polygon
+      points="0,-22 -32,6 0,24 32,6"
+      fill="#CBD5E1"
+    />
+    <polygon
+      points="0,24 -18,3 0,-12"
+      fill="url(#facetHighlight)"
+    />
+    <polygon
+      points="0,24 0,-12 18,3"
+      fill="url(#facetDark)"
+    />
+  </g>
+
+  <!-- ALGORYX Modern Geometric All-Caps Wordmark -->
+  <text
+    x="200"
+    y="272"
+    text-anchor="middle"
+    font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+    font-weight="800"
+    font-size="28"
+    letter-spacing="11"
+    fill="#707784"
+  >ALGORYX</text>
+</svg>

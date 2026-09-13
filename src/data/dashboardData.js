@@ -1,0 +1,312 @@
+// Algoryx Technologies - Official Enterprise Mock Data
+// Reflecting Algoryx's real engineering culture (Simulation, 3D/CAD, Physics, SaaS, WebGL)
+
+export const currentUser = {
+  name: 'Alex Mercer',
+  handle: '@alexm',
+  role: 'Frontend Engineer',
+  title: 'Developer',
+  email: 'alex.m@algoryx.se',
+  avatar: 'AM',
+  department: 'Web & Visual Cloud Platform',
+  location: 'Stockholm, Sweden',
+  status: 'online',
+  cluster: 'eu-north-prod-01',
+};
+
+export const metricsData = [
+  {
+    id: 'revenue',
+    label: 'Total Revenue',
+    value: '₹84,240',
+    change: '+18.4%',
+    trend: 'up',
+    supportingText: 'vs previous 30 days',
+    icon: 'DollarSign',
+    sparkline: [48, 54, 51, 62, 58, 69, 74, 72, 81, 84],
+  },
+  {
+    id: 'users',
+    label: 'Active Users',
+    value: '12,480',
+    change: '+12.8%',
+    trend: 'up',
+    supportingText: 'active platform accounts',
+    icon: 'Users',
+    sparkline: [82, 86, 91, 95, 99, 105, 112, 118, 121, 125],
+  },
+  {
+    id: 'projects',
+    label: 'Projects',
+    value: '248',
+    change: '+24',
+    trend: 'up',
+    supportingText: 'across 14 cluster zones',
+    icon: 'FolderGit2',
+    sparkline: [180, 194, 202, 215, 221, 230, 236, 240, 244, 248],
+  },
+  {
+    id: 'uptime',
+    label: 'System Uptime',
+    value: '99.99%',
+    change: '+0.02%',
+    trend: 'up',
+    supportingText: 'SLA guarantee met',
+    icon: 'ShieldCheck',
+    sparkline: [99.95, 99.96, 99.97, 99.98, 99.99, 99.99, 99.99, 99.99],
+  },
+];
+
+export const performanceChartData = {
+  '7D': [
+    { label: 'Mon', requests: 1120, users: 8400, performance: 44 },
+    { label: 'Tue', requests: 1210, users: 9100, performance: 42 },
+    { label: 'Wed', requests: 1250, users: 9900, performance: 43 },
+    { label: 'Thu', requests: 1284, users: 10600, performance: 41 },
+    { label: 'Fri', requests: 1390, users: 11400, performance: 40 },
+    { label: 'Sat', requests: 1180, users: 10800, performance: 39 },
+    { label: 'Sun', requests: 1420, users: 12480, performance: 42 },
+  ],
+  '30D': [
+    { label: 'Day 01', requests: 940, users: 7600, performance: 48 },
+    { label: 'Day 05', requests: 1020, users: 8100, performance: 46 },
+    { label: 'Day 10', requests: 1110, users: 8900, performance: 45 },
+    { label: 'Day 15', requests: 1190, users: 9800, performance: 43 },
+    { label: 'Day 20', requests: 1240, users: 10500, performance: 42 },
+    { label: 'Day 25', requests: 1310, users: 11600, performance: 41 },
+    { label: 'Day 30', requests: 1420, users: 12480, performance: 42 },
+  ],
+  '90D': [
+    { label: 'Wk 01', requests: 780, users: 6200, performance: 52 },
+    { label: 'Wk 03', requests: 890, users: 7400, performance: 49 },
+    { label: 'Wk 06', requests: 1060, users: 8800, performance: 46 },
+    { label: 'Wk 09', requests: 1210, users: 10400, performance: 43 },
+    { label: 'Wk 12', requests: 1420, users: 12480, performance: 42 },
+  ],
+  '1Y': [
+    { label: 'Jan', requests: 620, users: 4800, performance: 58 },
+    { label: 'Mar', requests: 810, users: 6500, performance: 54 },
+    { label: 'Jun', requests: 1020, users: 8600, performance: 49 },
+    { label: 'Sep', requests: 1240, users: 10800, performance: 44 },
+    { label: 'Dec', requests: 1420, users: 12480, performance: 42 },
+  ],
+};
+
+export const systemPulseMetrics = {
+  apiLatency: {
+    value: 42,
+    unit: 'ms',
+    label: 'API Latency',
+    target: '< 50ms',
+    status: 'Optimal',
+    percentage: 84, // relative to SLA
+  },
+  cpuUsage: {
+    value: 38,
+    unit: '%',
+    label: 'CPU Usage',
+    cores: '32 Cores // AMD EPYC',
+    status: 'Normal',
+    percentage: 38,
+  },
+  memoryUsage: {
+    value: 61,
+    unit: '%',
+    label: 'Memory Usage',
+    used: '24.4 GB',
+    total: '40.0 GB',
+    status: 'Stable',
+    percentage: 61,
+  },
+  requestsPerSec: {
+    value: '1,284',
+    unit: 'req/s',
+    label: 'Requests/sec',
+    peak: '1,540 peak',
+    status: 'High Load',
+    percentage: 72,
+  },
+};
+
+export const activeProjects = [
+  {
+    id: 'proj-1',
+    name: 'Breakpoint',
+    description: 'High-performance WebGL & multi-body physics simulation engine.',
+    status: 'Active',
+    progress: 88,
+    team: ['Elena Rostova', 'Marcus Vance', 'Alex Mercer'],
+    lastUpdated: '12m ago',
+    branch: 'main // v4.2',
+  },
+  {
+    id: 'proj-2',
+    name: '3D Asset Platform',
+    description: 'Cloud-native CAD geometry pipeline and interactive spatial simulation.',
+    status: 'Active',
+    progress: 74,
+    team: ['Sofia Chen', 'David Kim'],
+    lastUpdated: '34m ago',
+    branch: 'feat/spaceclaim-sync',
+  },
+  {
+    id: 'proj-3',
+    name: 'Developer Tools',
+    description: 'Unified CLI, telemetry SDK, and API integrations for enterprise partners.',
+    status: 'In Review',
+    progress: 92,
+    team: ['Lucas Dupont', 'Alex Mercer'],
+    lastUpdated: '2h ago',
+    branch: 'release/v2.1.0',
+  },
+  {
+    id: 'proj-4',
+    name: 'UI Integrations',
+    description: 'Algoryx enterprise component design system and canvas embeds.',
+    status: 'Active',
+    progress: 65,
+    team: ['David Kim', 'Amara Okafor'],
+    lastUpdated: '5h ago',
+    branch: 'feat/canvas-theme',
+  },
+];
+
+export const recentActivities = [
+  {
+    id: 'act-1',
+    user: {
+      name: 'Elena Rostova',
+      avatar: 'ER',
+      role: 'Graphics Engineer',
+    },
+    action: 'Deployed build',
+    project: 'Breakpoint',
+    status: 'Completed',
+    time: '3 mins ago',
+    timestamp: '22:10:14 UTC',
+  },
+  {
+    id: 'act-2',
+    user: {
+      name: 'Marcus Vance',
+      avatar: 'MV',
+      role: 'Infrastructure Lead',
+    },
+    action: 'Created integration',
+    project: 'Developer Tools',
+    status: 'Completed',
+    time: '18 mins ago',
+    timestamp: '21:55:02 UTC',
+  },
+  {
+    id: 'act-3',
+    user: {
+      name: 'Sofia Chen',
+      avatar: 'SC',
+      role: 'Research Scientist',
+    },
+    action: 'Updated project',
+    project: '3D Asset Platform',
+    status: 'In Progress',
+    time: '42 mins ago',
+    timestamp: '21:31:49 UTC',
+  },
+  {
+    id: 'act-4',
+    user: {
+      name: 'Alex Mercer',
+      avatar: 'AM',
+      role: 'Frontend Engineer',
+    },
+    action: 'Updated settings',
+    project: 'UI Integrations',
+    status: 'Pending',
+    time: '1 hour ago',
+    timestamp: '21:12:30 UTC',
+  },
+  {
+    id: 'act-5',
+    user: {
+      name: 'Lucas Dupont',
+      avatar: 'LD',
+      role: 'Developer Relations',
+    },
+    action: 'Added user',
+    project: 'Developer Tools',
+    status: 'Completed',
+    time: '2 hours ago',
+    timestamp: '20:08:15 UTC',
+  },
+  {
+    id: 'act-6',
+    user: {
+      name: 'David Kim',
+      avatar: 'DK',
+      role: 'Frontend Architect',
+    },
+    action: 'Deployed build',
+    project: 'UI Integrations',
+    status: 'Completed',
+    time: '3 hours ago',
+    timestamp: '19:24:00 UTC',
+  },
+  {
+    id: 'act-7',
+    user: {
+      name: 'Viktor Lind',
+      avatar: 'VL',
+      role: 'Compiler Engineer',
+    },
+    action: 'Updated project',
+    project: 'Breakpoint',
+    status: 'Failed',
+    time: '5 hours ago',
+    timestamp: '17:40:11 UTC',
+  },
+];
+
+export const notificationsList = [
+  {
+    id: 'notif-1',
+    title: 'Deployment completed',
+    description: 'Breakpoint WebGL build #3918 has been deployed successfully to 14 cluster regions.',
+    time: '5m ago',
+    read: false,
+    type: 'success',
+  },
+  {
+    id: 'notif-2',
+    title: 'New project created',
+    description: '3D Asset Platform CAD integration initialized by Elena Rostova.',
+    time: '24m ago',
+    read: false,
+    type: 'info',
+  },
+  {
+    id: 'notif-3',
+    title: 'System performance improved',
+    description: 'API p99 latency dropped to 42 ms across global edge endpoints.',
+    time: '1h ago',
+    read: false,
+    type: 'success',
+  },
+  {
+    id: 'notif-4',
+    title: 'New team member added',
+    description: 'Sofia Chen joined the 3D Asset Platform engineering team as Collaborator.',
+    time: '3h ago',
+    read: true,
+    type: 'info',
+  },
+];
+
+export const navigationItems = [
+  { id: 'overview', label: 'Overview', icon: 'LayoutDashboard' },
+  { id: 'analytics', label: 'Analytics', icon: 'BarChart3' },
+  { id: 'projects', label: 'Projects', icon: 'FolderGit2' },
+  { id: 'users', label: 'Users', icon: 'Users' },
+  { id: 'orders', label: 'Orders', icon: 'Receipt' },
+  { id: 'activity', label: 'Activity', icon: 'Activity' },
+  { id: 'notifications', label: 'Notifications', icon: 'Bell', badgeCount: 3 },
+  { id: 'settings', label: 'Settings', icon: 'Settings' },
+];

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="symHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#F1F5F9" />
+      <stop offset="70%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+
+    <linearGradient id="symMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="50%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+
+    <linearGradient id="symDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8" />
+      <stop offset="50%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+
+    <linearGradient id="symDeep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64748B" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(100, 100) scale(0.9)">
+    <!-- Outer Charcoal Hexagonal Frame -->
+    <path
+      d="M -72,-20 L -72,32 L 0,78 L 72,32 L 72,-20"
+      fill="none"
+      stroke="#2D323A"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M -72,-36 L -66,-66 L 0,-102 L 66,-66 L 72,-36"
+      fill="none"
+      stroke="#2D323A"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Interior Lower Chevron Accent -->
+    <path
+      d="M -24,36 L 0,52 L 24,36"
+      fill="none"
+      stroke="#363D47"
+      stroke-width="4.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Interior Upper Corner Accent Brackets -->
+    <path
+      d="M -60,-52 L -34,-34"
+      fill="none"
+      stroke="#5A6472"
+      stroke-width="3.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 60,-52 L 34,-34"
+      fill="none"
+      stroke="#5A6472"
+      stroke-width="3.5"
+      stroke-linecap="round"
+    />
+
+    <!-- 3D Faceted A / Star Monogram -->
+    <!-- Top Vertical Apex -->
+    <polygon points="0,-102 -22,-10 0,-22" fill="url(#symHighlight)" />
+    <polygon points="0,-102 0,-22 22,-10" fill="url(#symDark)" />
+
+    <!-- Crossing Wing Blades -->
+    <polygon points="-66,-34 0,-22 -32,6" fill="url(#symHighlight)" />
+    <polygon points="66,-34 32,6 0,-22" fill="url(#symMid)" />
+
+    <!-- Lower Left Leg -->
+    <polygon points="-64,60 -20,20 -35,-6" fill="url(#symDark)" />
+    <polygon points="-64,60 -42,10 -35,-6" fill="url(#symHighlight)" />
+
+    <!-- Lower Right Leg -->
+    <polygon points="64,60 35,-6 20,20" fill="url(#symMid)" />
+    <polygon points="64,60 35,-6 42,10" fill="url(#symDeep)" />
+
+    <!-- Center Facets -->
+    <polygon points="0,-22 -32,6 0,24 32,6" fill="#CBD5E1" />
+    <polygon points="0,24 -18,3 0,-12" fill="url(#symHighlight)" />
+    <polygon points="0,24 0,-12 18,3" fill="url(#symDark)" />
+  </g>
+</svg>
